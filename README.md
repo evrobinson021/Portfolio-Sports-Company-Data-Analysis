@@ -1,33 +1,73 @@
 # Portfolio: Bike-Shop-Data-Analysis
 
-This repository contains SQL scripts developed to analyse a relational dataset for a sports retail company. The dataset includes customer, product, and sales data.
+This repository contains an end-to-end data analysis project built using SQL and Tableau to analyse sales performance for a sports retail company.
+
+The project includes data exploration, transformation, and sales performance analysis. A customer analytics dashboard is currently in development, with a potential Power BI dashboard to follow.
 
 ## Project Overview
 
-The scripts demonstrate:
+The objective of this project is to analyse year-over-year sales performance and uncover trends across revenue, volume, and pricing metrics.
 
-- Data exploration and database familiarisation
+This analysis includes:
 
-- Sales performance metrics and KPIs
+- KPI performance tracking
 
-- Time-based trend analysis
+- Monthly and weekly trend analysis
 
-- Customer segmentation
+- Product subcategory comparison
 
-- Product performance analysis
+- Order behaviour insights through Average Order Value (AOV)
 
-- Aggregations and cumulative calculations
+## Sales Performance Dashboard
 
-This project simulates a real-world data analyst workflow, where SQL is used to extract and transform data before visualisation in BI tools.
+The Sales Dashboard presents:
 
-## Dataset
+KPI Overview
 
-The dataset represents a general sports company, containing transactional sales data alongside customer and product information.
+- Total Sales (CY vs PY)
+
+- Total Quantity (CY vs PY)
+
+- Average Order Value (AOV)
+
+- Dynamic % change indicators
+
+- Min/Max month highlighting
+
+Monthly Trends
+
+- Current Year vs Previous Year comparison
+
+- Highlighted highest and lowest performing months
+
+Product Subcategory Analysis
+
+- Sales and quantity comparison by subcategory
+
+Weekly Performance
+
+- Weekly Sales & AOV
+
+- Average weekly benchmark
+
+- Conditional formatting for above/below average weeks
 
 ## Tech Stack
 
-- SQL (MySQL)
+- SQL (MySQL) – Data cleaning, transformation, KPI preparation
 
-- Tableau (for dashboard development)
+- Tableau – Dashboard design & interactive visualisation
 
-- Power BI (planned for further visualisation)
+- GitHub – Version control & project documentation
+
+Skills Demonstrated
+
+- Data modelling & relational analysis
+
+- KPI design & year-over-year analysis
+
+- Parameter-driven dashboards
+
+- Conditional formatting & trend benchmarking
+
+- Business-focused data storytelling
