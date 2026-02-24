@@ -20,6 +20,9 @@ The project consists of two interactive dashboards:
 
 - Top performing products and revenue concentration analysis
 
+<img width="1207" height="805" alt="Sales Dashboard Screenshot" src="https://github.com/user-attachments/assets/7b41b8b7-10c3-43e7-b8d3-16e7bf7cf502" />
+
+
 ### Customer Insights Dashboard
 
 - Total Customers (CY vs PY)
@@ -31,6 +34,9 @@ The project consists of two interactive dashboards:
 - Top 10 Customers by Sales
 
 - Interactive filtering and parameter controls
+
+<img width="1192" height="808" alt="Customer Dashboard Screenshot" src="https://github.com/user-attachments/assets/7fff3614-1c83-433a-90a3-a8dfe69f0de6" />
+
 
 ## Tools & Technologies
 
@@ -61,6 +67,8 @@ The project consists of two interactive dashboards:
 ## Dashboard Walkthrough
 
 A short screen recording demonstrating navigation, filters, and parameter interaction can be viewed here:
+
+[Dashboard Demo](https://www.linkedin.com/posts/emma-robinson-7b9785372_ive-just-completed-an-end-to-end-sales-and-activity-7432094319940988930-grFE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFxOoj0BojJ613aBxPRxYS4nA2dyCp8WsyY)
 
 ## Repository Structure
 
