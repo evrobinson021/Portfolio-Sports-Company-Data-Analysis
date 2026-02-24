@@ -1,73 +1,75 @@
-# Portfolio: Bike-Shop-Data-Analysis
+# Customer & Sales Analytics Dashboard
 
-This repository contains an end-to-end data analysis project built using SQL and Tableau to analyse sales performance for a sports retail company.
+This project presents a complete end-to-end analytics workflow, from SQL data preparation to interactive Tableau dashboards.
 
-The project includes data exploration, transformation, and sales performance analysis. A customer analytics dashboard is currently in development, with a potential Power BI dashboard to follow.
+The goal of this project was to analyse sales performance and customer behaviour, providing insights into revenue trends, customer value, and geographic distribution.
 
 ## Project Overview
 
-The objective of this project is to analyse year-over-year sales performance and uncover trends across revenue, volume, and pricing metrics.
+The project consists of two interactive dashboards:
 
-This analysis includes:
+### Sales Performance Dashboard
 
-- KPI performance tracking
+- Current Year vs Previous Year analysis
 
-- Monthly and weekly trend analysis
+- Sales, Orders, and Average Order Value KPIs
 
-- Product subcategory comparison
+- Dynamic year parameter selection
 
-- Order behaviour insights through Average Order Value (AOV)
+- Monthly trend comparison
 
-## Sales Performance Dashboard
+- Top performing products and revenue concentration analysis
 
-The Sales Dashboard presents:
+### Customer Insights Dashboard
 
-### KPI Overview
+- Total Customers (CY vs PY)
 
-- Total Sales (CY vs PY)
+- Sales per Customer
 
-- Total Quantity (CY vs PY)
+- Geographic customer distribution map
 
-- Average Order Value (AOV)
+- Top 10 Customers by Sales
 
-- Dynamic % change indicators
+- Interactive filtering and parameter controls
 
-- Min/Max month highlighting
+## Tools & Technologies
 
-### Monthly Trends
+- **SQL** (Data preparation & transformation)
 
-- Current Year vs Previous Year comparison
+- **Tableau** (Dashboard development & visualisation)
 
-- Highlighted highest and lowest performing months
+- **GitHub** – Version control & project documentation
+  
+- Parameter-driven calculations (CY vs PY logic)
 
-### Product Subcategory Analysis
+- Window functions (Ranking & % of total)
 
-- Sales and quantity comparison by subcategory
+- Interactive dashboard design
 
-### Weekly Performance
+### Key Features
 
-- Weekly Sales & AOV
+- Dynamic year parameter to analyse performance across multiple years
 
-- Average weekly benchmark
+- Clean handling of NULL vs zero values for accurate min/max analysis
 
-- Conditional formatting for above/below average weeks
+- Top 10 customer ranking with revenue contribution %
 
-## Tech Stack
+- Geographic sales and customer distribution analysis
 
-- SQL (MySQL) – Data cleaning, transformation, KPI preparation
+- Fully interactive filters and drill-down capabilities
 
-- Tableau – Dashboard design & interactive visualisation
+## Dashboard Walkthrough
 
-- GitHub – Version control & project documentation
+A short screen recording demonstrating navigation, filters, and parameter interaction can be viewed here:
 
-### Skills Demonstrated
+## Repository Structure
 
-- Data modelling & relational analysis
+**/SQL** – Data exploration and transformation queries
 
-- KPI design & year-over-year analysis
+**/Tableau** – Dashboard screenshots
 
-- Parameter-driven dashboards
+**README.md** – Project documentation
 
-- Conditional formatting & trend benchmarking
 
-- Business-focused data storytelling
+
+
